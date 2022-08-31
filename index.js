@@ -1,9 +1,4 @@
-// document load event
-$(document).ready(function() {
-    // initialize the page
-    initPage();
+// document load event vanilla js
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('DOM loaded');
 });
-
-function initPage() {
-  console.log("Initializing page");
-}
